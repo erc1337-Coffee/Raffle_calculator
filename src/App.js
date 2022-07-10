@@ -29,6 +29,7 @@ function App() {
         <p>You have <input type='number' value={userTickets} onChange={(t) => { setUserTickets(t.target.value) }}/> tickets.</p>
         <p>Total tickets in the raffle: {totalTickets}</p>
         <p>Winning odds: {odds}%</p>
+        <a target="_blank" href="https://github.com/erc1337-Coffee/Raffle_calculator">This code is open-source :)</a>
       </div>
     </>
   );
