@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  box-shadow: #7e727e 5px 5px 4px;
+  text-align: center;
+  background: #e0e0e0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 2vw;
+  border-radius: 25px;
+}
